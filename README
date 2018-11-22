@@ -10,6 +10,8 @@ Use [npm] or [yarn]
 yarn install
 ```
 
+You need to add your own API key for TheMovieDB in settings.js
+
 ## Usage
 
 ```bash
