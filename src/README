@@ -1,0 +1,35 @@
+# Movie Search
+
+Tiny API to search for movies on TheMovieDB and see a toplist of most searched for movies
+
+## Installation
+
+Use [npm] or [yarn]
+
+```bash
+yarn install
+```
+
+## Usage
+
+```bash
+yarn start
+```
+
+## Tests
+
+```bash
+yarn test
+yarn test --watch (for watching changed files)
+```
+
+```bash
+POST to /search with e.g. {term:'matrix'}
+# should return a list of matching movies
+
+GET to /most_searched
+# should return a top list of most searched terms
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
